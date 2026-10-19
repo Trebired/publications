@@ -43,6 +43,8 @@ published: 2026-10-19
 author: mirmachynka
 ---
 
+## A heading that states something
+
 One paragraph.
 
 Another paragraph.
@@ -56,7 +58,7 @@ Another paragraph.
 
 A blank line separates paragraphs, and each paragraph becomes one rendered block. The first paragraph is rendered as the opening of the post.
 
-`##` opens a section and its heading is rendered as written. A case study is written in sections; a blog post may use them and usually does not. There is no deeper level.
+`##` opens a section and its heading is rendered as written. Every post and case study is written in sections, and a consumer lists them beside the text so a reader can move between them. Paragraphs before the first section are the opening and are optional. There is no deeper level, and a file without a section is refused.
 
 The rendered subset is section headings, paragraphs and links. There are no lists, tables, bold, italics, images, or code blocks. A consumer refuses a file that contains any other heading level rather than rendering part of it, and the build that reads it fails until the file is fixed.
 

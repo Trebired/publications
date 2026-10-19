@@ -4,6 +4,11 @@ All notable changes to Trebired Publications will be documented here.
 
 This repository follows semantic versioning.
 
+## 3.0.0
+
+- Breaking: every post and case study is written in sections. A file without a `##` section is refused, where a post written as plain paragraphs was accepted before.
+- Split `blog/trebired-goes-public` into seven sections in English and Czech. The text did not change.
+
 ## 2.0.0
 
 - Breaking: posts moved under `blog/`. `trebired-goes-public/` is now `blog/trebired-goes-public/`; a consumer that read the old folder finds nothing there. The slug, and the route a consumer serves it at, did not change.
